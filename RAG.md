@@ -1,12 +1,6 @@
-
-# #1 What is Retrieval-Augmented Generation (RAG)?
-
-> **Target Audience**
->
-> Backend Engineers • Platform Engineers • AI Engineers • Solution Architects
-
 ---
-
+# #1. What is Retrieval-Augmented Generation (RAG)?
+---
 ## Learning Objectives
 
 By the end of this chapter you should understand:
@@ -405,13 +399,13 @@ If any of these are unclear, spend time here before diving into embeddings or ve
 - Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (Lewis et al., 2020)
 - Dense Passage Retrieval for Open-Domain Question Answering (Karpukhin et al., 2020)
 
+
+
+
+
+
 ---
 # #2. Modern RAG Landscape
-
-> **Target Audience**
->
-> Backend Engineers • Platform Engineers • AI Engineers • Solution Architects
-
 ---
 
 # Learning Objectives
@@ -902,10 +896,6 @@ Before calling your application "production ready", ask yourself:
 
 # #3. Choosing the Right Knowledge Strategy (RAG vs Fine-Tuning)
 
-> **Target Audience**
->
-> Backend Engineers • Platform Engineers • AI Engineers • Solution Architects
-
 ---
 
 # Learning Objectives
@@ -1346,11 +1336,6 @@ Before choosing an architecture, ask:
 ---
 
 # #4. LLM Fundamentals for Backend Engineers
-
-> **Target Audience**
->
-> Backend Engineers • Platform Engineers • AI Engineers • Solution Architects
-
 ---
 
 # Learning Objectives
@@ -1854,11 +1839,6 @@ Before deploying an LLM-powered feature:
 ---
 
 # #5. Embeddings Fundamentals
-
-> **Target Audience**
->
-> Backend Engineers • Platform Engineers • AI Engineers • Solution Architects
-
 ---
 
 # Learning Objectives
@@ -2456,11 +2436,6 @@ Improving chunking often has a larger impact because it determines the granulari
 ---
 
 # #6. Similarity Search
-
-> **Target Audience**
->
-> Backend Engineers • Platform Engineers • AI Engineers • Solution Architects
-
 ---
 
 # Learning Objectives
@@ -3008,11 +2983,6 @@ Larger Top-K increases prompt size and introduces irrelevant context, which can 
 ---
 
 # #7. Approximate Nearest Neighbor (ANN) & HNSW
-
-> **Target Audience**
->
-> Backend Engineers • Platform Engineers • AI Engineers • Solution Architects
-
 ---
 
 # Learning Objectives
@@ -3531,11 +3501,6 @@ While larger `M` improves graph connectivity and recall, it also increases RAM u
 ---
 
 # #8. Vector Databases
-
-> **Target Audience**
->
-> Backend Engineers • Platform Engineers • AI Engineers • Solution Architects
-
 ---
 
 # Learning Objectives
@@ -4043,11 +4008,6 @@ No. Vector databases specialize in similarity search. Traditional databases rema
 ---
 
 # #9. Chunking Strategies
-
-> **Target Audience**
->
-> Backend Engineers • Platform Engineers • AI Engineers • Solution Architects
-
 ---
 
 # Learning Objectives
@@ -4670,11 +4630,6 @@ In many production systems, improving chunking has a larger impact because it di
 ---
 
 # #10. Retrieval Pipeline
-
-> **Target Audience**
->
-> Backend Engineers • AI Engineers • Platform Engineers
-
 ---
 
 # Learning Objectives
@@ -5266,11 +5221,6 @@ If relevant documents are never retrieved, even the best LLM cannot produce accu
 ---
 
 # #11. Reranking
-
-> **Target Audience**
->
-> Backend Engineers • Platform Engineers • AI Engineers
-
 ---
 
 # Learning Objectives
@@ -5808,11 +5758,6 @@ When you need better retrieval quality than standard bi-encoders but lower laten
 ---
 
 # #12. Ingestion Pipeline
-
-> **Target Audience**
->
-> Backend Engineers • Platform Engineers • AI Engineers
-
 ---
 
 # Learning Objectives
@@ -6420,11 +6365,6 @@ Losing document structure (tables, headings, lists, code blocks) can significant
 ---
 
 # #13. Evaluation
-
-> **Target Audience**
->
-> Backend Engineers • AI Engineers • ML Platform Engineers
-
 ---
 
 # Learning Objectives
@@ -7035,11 +6975,6 @@ Faithfulness measures whether the generated answer is supported by the retrieved
 ---
 
 # #14. Observability
-
-> **Target Audience**
->
-> Backend Engineers • Platform Engineers • AI Engineers • SREs
-
 ---
 
 # Learning Objectives
@@ -7603,21 +7538,7 @@ Metrics such as token usage, hallucination rate, faithfulness, retrieval quality
 
 ---
 
-➡️ **Next Chapter:** Security — Prompt Injection, Data Leakage, Access Control, PII Protection, Multi-Tenant Isolation, Guardrails, and Secure Production RAG
-
----
-title: Security
-description: Secure production RAG systems against prompt injection, data leakage, unauthorized access, malicious documents, and model abuse.
-author: ChatGPT
-version: 1.0
----
-
-# Security
-
-> **Target Audience**
->
-> Backend Engineers • Platform Engineers • Security Engineers • AI Engineers
-
+# #15. Security
 ---
 
 # Learning Objectives
@@ -8126,12 +8047,7 @@ Associate every document with tenant metadata and enforce mandatory metadata fil
 
 ---
 
-# #15. Production Architecture
-
-> **Target Audience**
->
-> Backend Engineers • Staff Engineers • Platform Engineers • Solution Architects
-
+# #16. Production Architecture
 ---
 
 # Learning Objectives
@@ -8750,21 +8666,7 @@ Common bottlenecks include LLM latency, reranking, vector search at scale, inges
 
 ---
 
-➡️ **Next Chapter:** Frameworks — LangChain, LlamaIndex, Haystack, DSPy, Semantic Kernel, OpenAI Agents SDK, and when to use (or avoid) each framework.
-
----
-title: Frameworks
-description: Compare the major RAG frameworks, understand their strengths and weaknesses, and learn when to use (or avoid) each one in production.
-author: ChatGPT
-version: 1.0
----
-
-# Frameworks
-
-> **Target Audience**
->
-> Backend Engineers • AI Engineers • Solution Architects
-
+# #17. Frameworks
 ---
 
 # Learning Objectives
@@ -9285,22 +9187,10 @@ No. For smaller or well-defined systems, a custom implementation may be simpler,
 - Microsoft Reactor – Semantic Kernel
 - OpenAI – Building Agentic Applications
 
----
-
-➡️ **Next Chapter:** Agentic RAG — Multi-Step Retrieval, Tool Use, Planning, Reflection, Memory, and Building Autonomous Knowledge Systems
 
 ---
-title: Agentic RAG
-description: Learn how to build production-grade Agentic RAG systems with planning, tool use, iterative retrieval, reflection, memory, and multi-agent workflows.
-author: ChatGPT
-version: 1.0
----
 
-# Agentic RAG
-
-> **Target Audience**
->
-> Backend Engineers • AI Engineers • Solution Architects
+# #18. Agentic RAG
 
 ---
 
@@ -9826,12 +9716,7 @@ Increased latency, higher operational cost, more complex debugging, potential in
 
 ---
 
-# #16. System Design
-
-> **Target Audience**
->
-> Senior Backend Engineers • Staff Engineers • Solution Architects • AI Engineers
-
+# #19. System Design
 ---
 
 # Learning Objectives
@@ -10429,20 +10314,7 @@ Hybrid retrieval combines lexical search (BM25) with semantic vector search, imp
 
 ---
 
-➡️ **Next Chapter:** Projects — Build 7 progressively complex, production-grade RAG applications that showcase real engineering skills and make an excellent portfolio.
-
----
-title: Projects
-description: Build production-grade RAG applications that progressively teach retrieval, indexing, observability, evaluation, security, and distributed system design.
-author: ChatGPT
-version: 1.0
----
-
-# Projects
-
-> **Target Audience**
->
-> Backend Engineers • AI Engineers • Students • Interview Candidates
+  # #20. Projects
 
 ---
 
@@ -11044,22 +10916,7 @@ Three to five well-engineered, thoroughly documented projects generally provide 
 - Microsoft Reactor – AI Application Architecture
 
 ---
-
-➡️ **Next Chapter:** Interview Guide — Backend + AI Engineering interview questions, coding rounds, system design, debugging scenarios, behavioral questions, and preparation roadmap.
-
----
-title: Interview Guide
-description: A comprehensive guide for Backend + AI Engineering interviews covering coding, RAG concepts, system design, debugging, production engineering, and behavioral questions.
-author: ChatGPT
-version: 1.0
----
-
-# Interview Guide
-
-> **Target Audience**
->
-> Backend Engineers transitioning to AI Engineering, Senior Backend Engineers, Staff Engineers, ML Platform Engineers
-
+# #21. Interview Guide
 ---
 
 # Learning Objectives
@@ -11541,17 +11398,7 @@ Before your interviews:
 - OpenAI Developer Sessions
 
 ---
-
-➡️ **Final Chapter:** Cheat Sheets — A compact, interview-friendly reference covering embeddings, vector databases, retrieval, chunking, reranking, evaluation, architecture, security, and production best practices.
-
----
-title: Cheat Sheets
-description: Quick-reference guide for Production RAG Engineering covering architecture, embeddings, retrieval, vector databases, evaluation, observability, security, optimization, and interview preparation.
-author: ChatGPT
-version: 1.0
----
-
-# Cheat Sheets
+# #22. Cheat Sheets
 
 > **Purpose**
 >
