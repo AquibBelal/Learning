@@ -1,11 +1,5 @@
----
-title: What is Retrieval-Augmented Generation (RAG)?
-description: Introduction to Retrieval-Augmented Generation, why it exists, when to use it, and how production RAG systems differ from prototypes.
-author: ChatGPT
-version: 1.0
----
 
-# What is Retrieval-Augmented Generation (RAG)?
+# #1 What is Retrieval-Augmented Generation (RAG)?
 
 > **Target Audience**
 >
@@ -412,17 +406,7 @@ If any of these are unclear, spend time here before diving into embeddings or ve
 - Dense Passage Retrieval for Open-Domain Question Answering (Karpukhin et al., 2020)
 
 ---
-
-➡️ **Next Chapter:** Modern RAG Landscape
-
----
-title: Modern RAG Landscape
-description: Evolution of RAG architectures, production pipelines, and why demo RAG systems fail at scale.
-author: ChatGPT
-version: 1.0
----
-
-# Modern RAG Landscape
+# #2. Modern RAG Landscape
 
 > **Target Audience**
 >
@@ -916,16 +900,7 @@ Before calling your application "production ready", ask yourself:
 
 ---
 
-➡️ **Next Chapter:** RAG vs Fine-Tuning — Choosing the Right Approach
-
----
-title: Choosing the Right Knowledge Strategy
-description: Learn when to use Prompt Engineering, RAG, Fine-Tuning, Function Calling, Databases, or Hybrid Architectures in production AI systems.
-author: ChatGPT
-version: 1.0
----
-
-# Choosing the Right Knowledge Strategy
+# #3. Choosing the Right Knowledge Strategy (RAG vs Fine-Tuning)
 
 > **Target Audience**
 >
@@ -1370,15 +1345,7 @@ Before choosing an architecture, ask:
 
 ---
 
-➡️ **Next Chapter:** LLM Fundamentals for Backend Engineers
----
-title: LLM Fundamentals for Backend Engineers
-description: Learn the essential LLM concepts required to build production-ready RAG systems without diving into deep ML theory.
-author: ChatGPT
-version: 1.0
----
-
-# LLM Fundamentals for Backend Engineers
+# #4. LLM Fundamentals for Backend Engineers
 
 > **Target Audience**
 >
@@ -1886,15 +1853,7 @@ Before deploying an LLM-powered feature:
 
 ---
 
-➡️ **Next Chapter:** Embeddings — The Foundation of Semantic Search
----
-title: Embeddings Fundamentals
-description: Understanding embeddings from an engineering perspective.
-author: ChatGPT
-version: 1.0
----
-
-# Embeddings Fundamentals
+# #5. Embeddings Fundamentals
 
 > **Target Audience**
 >
@@ -2496,16 +2455,7 @@ Improving chunking often has a larger impact because it determines the granulari
 
 ---
 
-➡️ **Next Chapter:** Similarity Search — Cosine Similarity, Dot Product, Euclidean Distance, and Why Vector Search Works
-
----
-title: Similarity Search
-description: Understanding similarity metrics, nearest neighbor search, and why Approximate Nearest Neighbor (ANN) algorithms are essential for production RAG systems.
-author: ChatGPT
-version: 1.0
----
-
-# Similarity Search
+# #6. Similarity Search
 
 > **Target Audience**
 >
@@ -3057,16 +3007,7 @@ Larger Top-K increases prompt size and introduces irrelevant context, which can 
 
 ---
 
-➡️ **Next Chapter:** Approximate Nearest Neighbor (ANN), HNSW, IVF, and why modern Vector Databases can search billions of vectors in milliseconds.
-
----
-title: Approximate Nearest Neighbor (ANN) & HNSW
-description: Learn how modern vector databases retrieve millions of embeddings in milliseconds using Approximate Nearest Neighbor search and the Hierarchical Navigable Small World (HNSW) algorithm.
-author: ChatGPT
-version: 1.0
----
-
-# Approximate Nearest Neighbor (ANN) & HNSW
+# #7. Approximate Nearest Neighbor (ANN) & HNSW
 
 > **Target Audience**
 >
@@ -3589,16 +3530,7 @@ While larger `M` improves graph connectivity and recall, it also increases RAM u
 
 ---
 
-➡️ **Next Chapter:** Vector Databases — pgvector vs Qdrant vs Pinecone vs Weaviate vs Milvus: Architecture, Trade-offs, and Choosing the Right Database
-
----
-title: Vector Databases
-description: Architecture, trade-offs, and selecting the right vector database for production RAG systems.
-author: ChatGPT
-version: 1.0
----
-
-# Vector Databases
+# #8. Vector Databases
 
 > **Target Audience**
 >
@@ -4110,16 +4042,7 @@ No. Vector databases specialize in similarity search. Traditional databases rema
 
 ---
 
-➡️ **Next Chapter:** Chunking Strategies — Why Chunk Size, Overlap, and Document Structure Have More Impact Than Your Embedding Model
-
----
-title: Chunking Strategies
-description: Learn how to split documents for production RAG systems. Understand chunk size, overlap, semantic chunking, parent-child retrieval, and production trade-offs.
-author: ChatGPT
-version: 1.0
----
-
-# Chunking Strategies
+# #9. Chunking Strategies
 
 > **Target Audience**
 >
@@ -4746,16 +4669,7 @@ In many production systems, improving chunking has a larger impact because it di
 
 ---
 
-➡️ **Next Chapter:** Retrieval Pipeline — Query Rewriting, Hybrid Search, Metadata Filtering, Multi-Query Retrieval, and Context Assembly
-
----
-title: Retrieval Pipeline
-description: Designing a production-grade retrieval pipeline for RAG systems.
-author: ChatGPT
-version: 1.0
----
-
-# Retrieval Pipeline
+# #10. Retrieval Pipeline
 
 > **Target Audience**
 >
@@ -5351,16 +5265,7 @@ If relevant documents are never retrieved, even the best LLM cannot produce accu
 
 ---
 
-➡️ **Next Chapter:** Reranking — Cross-Encoders, Bi-Encoders, Late Interaction (ColBERT), and How to Improve Precision Without Increasing Token Costs
-
----
-title: Reranking
-description: Learn how rerankers improve retrieval quality, understand Cross-Encoders vs Bi-Encoders vs Late Interaction models, and design production-ready reranking pipelines.
-author: ChatGPT
-version: 1.0
----
-
-# Reranking
+# #11. Reranking
 
 > **Target Audience**
 >
@@ -5902,16 +5807,7 @@ When you need better retrieval quality than standard bi-encoders but lower laten
 
 ---
 
-➡️ **Next Chapter:** Ingestion Pipeline — Document Parsing, OCR, Cleaning, Normalization, Metadata Extraction, Incremental Indexing, and Keeping Your Knowledge Base Up to Date
-
----
-title: Ingestion Pipeline
-description: Build a robust ingestion pipeline for production RAG systems, from document parsing to incremental indexing and embedding versioning.
-author: ChatGPT
-version: 1.0
----
-
-# Ingestion Pipeline
+# #12. Ingestion Pipeline
 
 > **Target Audience**
 >
@@ -6523,16 +6419,7 @@ Losing document structure (tables, headings, lists, code blocks) can significant
 
 ---
 
-➡️ **Next Chapter:** Evaluation — Measuring Retrieval Quality, Ground Truth Datasets, RAGAS, Precision@K, Recall@K, Faithfulness, and Continuous Evaluation
-
----
-title: Evaluation
-description: Learn how to measure and improve production RAG systems using retrieval metrics, generation metrics, RAGAS, LLM-as-a-Judge, and continuous evaluation.
-author: ChatGPT
-version: 1.0
----
-
-# Evaluation
+# #13. Evaluation
 
 > **Target Audience**
 >
@@ -7147,16 +7034,7 @@ Faithfulness measures whether the generated answer is supported by the retrieved
 
 ---
 
-➡️ **Next Chapter:** Observability — Logging, Tracing, Metrics, Cost Analysis, Prompt Versioning, and Monitoring Production RAG Systems
-
----
-title: Observability
-description: Learn how to monitor, debug, and operate production RAG systems using tracing, metrics, logging, prompt versioning, cost monitoring, and AI observability.
-author: ChatGPT
-version: 1.0
----
-
-# Observability
+# #14. Observability
 
 > **Target Audience**
 >
@@ -8248,16 +8126,7 @@ Associate every document with tenant metadata and enforce mandatory metadata fil
 
 ---
 
-➡️ **Next Chapter:** Production Architecture — Designing Scalable, Fault-Tolerant, Cost-Efficient RAG Systems with Caching, Queues, Streaming, and Microservices
-
----
-title: Production Architecture
-description: Design scalable, reliable, and cost-efficient production RAG systems using microservices, queues, caching, and distributed systems principles.
-author: ChatGPT
-version: 1.0
----
-
-# Production Architecture
+# #15. Production Architecture
 
 > **Target Audience**
 >
@@ -9957,16 +9826,7 @@ Increased latency, higher operational cost, more complex debugging, potential in
 
 ---
 
-➡️ **Next Chapter:** System Design — End-to-End Production RAG Design Interviews, Architecture Trade-offs, Scaling Strategies, and Real-World Case Studies
-
----
-title: System Design
-description: Design production-ready RAG systems through real-world architecture case studies, scalability strategies, and engineering trade-offs.
-author: ChatGPT
-version: 1.0
----
-
-# System Design
+# #16. System Design
 
 > **Target Audience**
 >
